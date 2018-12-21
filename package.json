@@ -1,0 +1,56 @@
+{
+  "name": "nuxt-content",
+  "version": "0.0.0",
+  "description": "Nuxt.js module for building static sites and blogs",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "David Royer <droyer01@gmail.com>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/davidroyer/nuxt-content",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/plugin.js"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "front-matter": "^3.0.1",
+    "fs-jetpack": "^2.2.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-highlightjs": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
+    "jest": "latest",
+    "jsdom": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  }
+}
