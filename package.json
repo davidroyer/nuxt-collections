@@ -14,7 +14,10 @@
     "access": "public"
   },
   "scripts": {
+    "start": "concurrently \"npm:dev\" \"npm:dev-md\"",
     "dev": "nuxt example",
+    "generate": "nuxt generate example",
+    "dev-md": "processmd 'example/_content/**/*.{yml,md}' --outputDir example/data --summaryOutput example/data/summary.json --watch",
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
@@ -31,11 +34,14 @@
   },
   "dependencies": {
     "chokidar": "^2.0.4",
+    "concurrently": "^4.1.0",
     "front-matter": "^3.0.1",
     "fs-jetpack": "^2.2.0",
+    "highlight.js": "^9.13.1",
     "markdown-it": "^8.4.2",
     "markdown-it-container": "^2.0.0",
-    "markdown-it-highlightjs": "^3.0.0"
+    "markdown-it-highlightjs": "^3.0.0",
+    "processmd": "^4.4.0"
   },
   "devDependencies": {
     "babel-eslint": "latest",

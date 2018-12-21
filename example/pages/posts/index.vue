@@ -1,18 +1,22 @@
 <template lang="html">
   <ul class="posts-list">
-    <li v-for="post in posts" :key="post.slug">
-      <span class="post-date">{{ post.date }}</span>
-      <nuxt-link :to="`/posts/${post.slug}/`" class="post-title">
+    <li v-for="post in posts"
+:key="post.slug">
+      <span class="post-date">
+{{ post.date }}
+</span>
+      <NuxtLink :to="`/posts/${post.slug}/`" class="post-title">
         {{ post.title }}
-      </nuxt-link>
+      </NuxtLink>
     </li>
   </ul>
 </template>
 
 <script>
+import posts from '@/api/posts.json'
 export default {
-  asyncData ({$content}) {
-    const posts = $content.get('posts')
+  asyncData ({ $content }) {
+    // const posts = $content.get('posts')
     return { posts }
   }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "post-5",
+  "slug": "post-5",
+  "title": "Post 5B",
+  "tags": [
+    "tag-example1",
+    "tag-example2"
+  ],
+  "date": "2/13/2018",
+  "content": "<h2>This will be post 4</h2>\n<pre><code class=\"language-js\">var a = 'new'\n</code></pre>\n<p>hi</p>\n"
+}

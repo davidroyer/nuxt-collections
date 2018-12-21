@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
 export default {
   asyncData ({ $content, params }) {
     // eslint-disable-next-line no-console
@@ -23,5 +24,9 @@ export default {
   //     return { post: store.state.posts.find(post => post.name === params.slug) }
   //   }
   // }
+// <style src='~/node_modules/highlight.js/styles/atom-one-dark-reasonable.css'></style>
+
 }
 </script>
+
+

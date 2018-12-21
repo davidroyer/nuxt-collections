@@ -1,0 +1,15 @@
+{
+  "title": "Post 4 DAVID4",
+  "date": "2018-12-10T00:00:00.000Z",
+  "tags": [
+    "tag-example1",
+    "tag-example2"
+  ],
+  "bodyContent": "hi again 2\n\n## This will be post 4\nhiiiii\n\n```js\nvar a = 'new'\n```\n\nnew\n\n## I wonder what will happen here as I add\n\n### Heading Level 3\n\n#### Heading Level 4",
+  "bodyHtml": "<p>hi again 2</p>\n<h2>This will be post 4</h2>\n<p>hiiiii</p>\n<pre><code class=\"hljs\"><span class=\"hljs-keyword\">var</span> a = <span class=\"hljs-string\">'new'</span></code></pre><p>new</p>\n<h2>I wonder what will happen here as I add</h2>\n<h3>Heading Level 3</h3>\n<h4>Heading Level 4</h4>\n",
+  "dir": "example/data/posts",
+  "base": "post-4.json",
+  "ext": ".json",
+  "sourceBase": "post-4.md",
+  "sourceExt": ".md"
+}

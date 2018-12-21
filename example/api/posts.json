@@ -1,0 +1,66 @@
+[
+  {
+    "name": "post-4",
+    "slug": "post-4",
+    "title": "Post 4 DAVID4",
+    "tags": [
+      "tag-example1",
+      "tag-example2"
+    ],
+    "date": "12/9/2018",
+    "content": "<p>hi again 2</p>\n<h2>This will be post 4</h2>\n<p>hiiiii</p>\n<pre><code class=\"language-js\">var a = 'new'\n</code></pre>\n<p>new</p>\n<h2>I wonder what will happen here as I add</h2>\n<h3>Heading Level 3</h3>\n<h4>Heading Level 4</h4>\n"
+  },
+  {
+    "name": "post-6",
+    "slug": "post-6",
+    "title": "Post 6d UPADTE TEST2!",
+    "tags": [
+      "bug"
+    ],
+    "date": "7/29/2018",
+    "content": "<h2>This is post 6.</h2>\n<p><strong><em>It didn't work when it had no tags</em></strong></p>\n<pre><code class=\"language-js\">var a = 'new'\n</code></pre>\n<blockquote>\n<p>Beautiful Blockquote</p>\n</blockquote>\n"
+  },
+  {
+    "name": "about-yarn-lock-and-package-lock-json",
+    "slug": "about-yarn-lock-and-package-lock-json",
+    "title": "About yarn.lock & package-lock.json",
+    "tags": [
+      "javaScript"
+    ],
+    "date": "6/22/2018",
+    "content": "<h1>What is a lock?</h1>\n<p>Yarn uses its own design format, which is a bit like YAML (the standard YAML will be used in Yarn 2.0). The line at the beginning of <code>#</code> is a comment.</p>\n<h2>lockfile version</h2>\n<p>The second line of each <code>yarn.lock</code> is <code># yarn lockfile v1</code>. This indicates the first version of the lockfile. The record version is for the purpose of updating the syntax or semantics of the lockfile in the future. Once the lockfile is updated in the future, the version number is added, and Yarn can make different actions according to different versions, thus ensuring backward compatibility.</p>\n<h2>Field Interpretation</h2>\n<p>All package information is listed under the <code>yarn.lock</code> file and sorted alphabetically. I just find a bag for explanation. E.g:</p>\n<pre><code class=\"language-yaml\">Boom@5.x.x:\n  Version &quot;5.2.0&quot;\n  Responsible &quot;https://registry.yarnpkg.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02&quot;\n  Dependencies:\n    Hoek &quot;4.x.x&quot;\n</code></pre>\n"
+  },
+  {
+    "name": "post-5",
+    "slug": "post-5",
+    "title": "Post 5B",
+    "tags": [
+      "tag-example1",
+      "tag-example2"
+    ],
+    "date": "2/13/2018",
+    "content": "<h2>This will be post 4</h2>\n<pre><code class=\"language-js\">var a = 'new'\n</code></pre>\n<p>hi</p>\n"
+  },
+  {
+    "name": "changing-of-name-and-domain-name-of-blog",
+    "slug": "changing-of-name-and-domain-name-of-blog",
+    "title": "Changing The Name 2",
+    "tags": [
+      "blog"
+    ],
+    "date": "2/16/2017",
+    "content": "<h2>NEWWW HERE 23</h2>\n<h3>Header Level 3</h3>\n<h4>Header Level 4</h4>\n<blockquote>\n<p>Blockquote saying something good</p>\n</blockquote>\n<ul>\n<li>ITEM 1</li>\n<li>ITEM 2</li>\n</ul>\n<ol>\n<li>Item 1</li>\n<li>Item 2</li>\n</ol>\n<p>sss\nYesterday when I browsed [an article] of <a href=\"https://www.freehao123.com\">Free Resources Horde</a> (https://www.freehao123.com/freenom-tk-ml-ga-cf-gq/) As I mentioned in some people's comments, the free domain name in Freenom has little meaning, and the domain names like .win and .bid have only been dozens of pieces in Alibaba Cloud for ten years, decisively on Aliyun. The .win domain name renewal fee is 7 yuan a year, .bid is 5 yuan a year; and if registered, both are 4 yuan a year, .win is 18 yuan 3 years, .bid is 14 yuan 3 years. Although .bid is cheap, I checked it. Its meaning is related to &quot;auction&quot;, so I chose the .win domain name of 18 yuan for 3 years.</p>\n<p>When placing an order, the mobile phone APP can be reduced by 5 yuan for the first time, so the final result is that the domain name &quot;gplane.win&quot; has been obtained for only 3 years.</p>\n<p>Because it is no longer the original &quot;sealfu.cf&quot; domain name, so the site name should be changed, and you will change the &quot;Me.blog('GPlane');&quot;</p>\n"
+  },
+  {
+    "name": "migrate-to-nuxt",
+    "slug": "migrate-to-nuxt",
+    "title": "再见 Hexo，你好 Nuxt.js dsd",
+    "tags": [
+      "blog",
+      "tag-example1",
+      "tag-example2"
+    ],
+    "date": "5/10/2016",
+    "content": "<p>recently spent a few days rewriting my blog with Nuxt.js.</p>\n<h1>Nuxt.js Introduction</h1>\n<p><a href=\"https://nuxtjs.org/\">Nuxt.js</a> is a Universal App Framework under Vue.js that can be used for SSR.\nHowever, I used its <code>nuxt generate</code> function to staticize the page, basically implementing the function of the static site generator. (The reason why &quot;basic&quot; does not mean that Nuxt.js has limitations, but that my application itself is not fully static.)</p>\n<h1>Why no longer use Hexo?</h1>\n<p>It's undeniable that Hexo's ecology is quite rich, and a variety of plug-ins can enhance the functionality of blogs; moreover, Hexo-generated sites are truly completely static, with little runtime overhead.</p>\n<p>However, the various configurations under Hexo are relatively complex, and the current state of Hexo gives me the feeling that it is not efficient.</p>\n<p>This page has an egg that is useless, and the kings can dig it on their own.</p>\n"
+  }
+]
