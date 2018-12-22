@@ -13,6 +13,7 @@
 
 export default {
   asyncData ({ params }) {
+    // const post = $jsonApi(`posts/${params.slug}`)
     const post = require(`@/data/posts/${params.slug}`)
     return { post }
   }
