@@ -17,8 +17,8 @@
     "start": "concurrently \"npm:dev\" \"npm:dev-md\"",
     "dev": "nuxt example",
     "generate": "nuxt generate example",
-    "dev-md": "processmd 'example/_content/**/*.{yml,md}' --outputDir example/data --summaryOutput example/data/summary.json --watch",
     "lint": "eslint lib test",
+    "serve": "http-server dist",
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },

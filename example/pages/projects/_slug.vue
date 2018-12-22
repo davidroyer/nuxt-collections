@@ -1,14 +1,14 @@
 <template>
   <div class="project">
-    <h1 v-text="project.title"></h1>
-    <article v-html="project.content"></article>
+    <h1 v-text="project.title"/>
+    <article v-html="project.content"/>
   </div>
 </template>
 
 <script>
 export default {
-  asyncData ({ $content, params }) {
-    const project = $content.get(`projects/${params.slug}`)
+  asyncData ({ params }) {
+    const project = require(`@/data/projects/${params.slug}`)
     return { project }
   }
 }

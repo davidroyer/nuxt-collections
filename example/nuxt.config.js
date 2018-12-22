@@ -1,7 +1,6 @@
 const { resolve } = require('path')
 
 module.exports = {
-  watch: ['./api/*.json'],
   rootDir: resolve(__dirname, '..'),
   buildDIr: resolve(__dirname, '.nuxt'),
   srcDir: __dirname,
@@ -11,7 +10,12 @@ module.exports = {
   modules: [
     '@@'
   ],
+  css: [
+    '@@/node_modules/highlight.js/styles/atom-one-dark-reasonable.css'
+  ],
+
   content: {
-    contentDir: '_content'
+    // contentDir: '_Content',
+    // jsonApiDir: '_Data'
   }
 }

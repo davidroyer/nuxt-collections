@@ -1,5 +1,5 @@
 ---
-title: 再见 Hexo，你好 Nuxt.js dsd
+title: Migrate To Nuxt T1
 date: 2016-05-10 17:30:53
 tags:
   - blog

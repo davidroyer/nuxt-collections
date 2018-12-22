@@ -1,19 +1,20 @@
 <template>
   <div>
     <div
-      v-for="item in fileMap"
-      :key="item.base"
+      v-for="post in posts"
+      :key="post.slug"
     >
-      <h2>{{ item.title }}</h2>
+      <h2>{{ post.title }}</h2>
     </div>
   </div>
 </template>
 
 <script>
-import summary from '@/data/summary.json'
+
 export default {
   asyncData () {
-    return { ...summary }
+    const posts = require(`@/data/posts`)
+    return { posts }
   }
 }
 </script>

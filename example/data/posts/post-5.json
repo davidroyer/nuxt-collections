@@ -1,15 +1,11 @@
 {
-  "title": "Post 5B",
-  "date": "2018-02-14T00:00:00.000Z",
+  "name": "post-5",
+  "slug": "post-5",
+  "title": "Post 5 NEWWWWW",
+  "date": "2/13/2018",
   "tags": [
     "tag-example1",
     "tag-example2"
   ],
-  "bodyContent": "## This will be post 4\n\n```js\nvar a = 'new'\n```\n\nhi",
-  "bodyHtml": "<h2>This will be post 4</h2>\n<pre><code class=\"hljs\"><span class=\"hljs-keyword\">var</span> a = <span class=\"hljs-string\">'new'</span></code></pre><p>hi</p>\n",
-  "dir": "example/data/posts",
-  "base": "post-5.json",
-  "ext": ".json",
-  "sourceBase": "post-5.md",
-  "sourceExt": ".md"
+  "content": "<h2>This will be post 4</h2>\n<pre><code class=\"language-js\">var a = 'new'\n</code></pre>\n<p>hi</p>\n"
 }

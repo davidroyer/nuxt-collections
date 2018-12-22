@@ -6,23 +6,19 @@
         v-for="project in projects"
         :key="project.slug"
       >
-        <nuxt-link :to="`/projects/${project.slug}`">
-          <h2 v-text="project.title"></h2>
-        </nuxt-link>
+        <NuxtLink :to="`/projects/${project.slug}`">
+          <h2 v-text="project.title" />
+        </NuxtLink>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-
+import projects from '@/data/projects'
 export default {
-  asyncData ({$content}) {
-    const projects = $content.get('projects')
+  asyncData () {
     return { projects }
   }
 }
 </script>
-
-<style>
-</style>
