@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-content",
+  "name": "nuxt-collections",
   "version": "0.0.3",
   "description": "Nuxt.js module for building static sites and blogs",
   "license": "MIT",
@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/davidroyer/nuxt-content",
+  "repository": "https://github.com/davidroyer/nuxt-collections",
   "publishConfig": {
     "access": "public"
   },

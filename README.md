@@ -1,4 +1,4 @@
-# nuxt-content
+# nuxt-collections
 
 [![David-DM][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
@@ -13,17 +13,17 @@
 
 ## Setup
 
-- Add `nuxt-content` dependency using yarn or npm to your project
-- Add `nuxt-content` to `modules` section of `nuxt.config.js`
+- Add `nuxt-collections` dependency using yarn or npm to your project
+- Add `nuxt-collections` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    'nuxt-content',
+    'nuxt-collections',
 
     // With options
-    ['nuxt-content', { /* module options */ }],
+    ['nuxt-collections', { /* module options */ }],
  ]
 }
 ```
@@ -41,15 +41,15 @@
 Copyright (c) David Royer <droyer01@gmail.com>
 
 <!-- Badges -->
-[david-dm-src]: https://david-dm.org/davidroyer/nuxt-content/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/davidroyer/nuxt-content
+[david-dm-src]: https://david-dm.org/davidroyer/nuxt-collections/status.svg?style=flat-square
+[david-dm-href]: https://david-dm.org/davidroyer/nuxt-collections
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
-[circle-ci-src]: https://img.shields.io/circleci/project/github/davidroyer/nuxt-content.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/davidroyer/nuxt-content
-[codecov-src]: https://img.shields.io/codecov/c/github/davidroyer/nuxt-content.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/davidroyer/nuxt-content
-[npm-version-src]: https://img.shields.io/npm/dt/nuxt-content.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-content
-[npm-downloads-src]: https://img.shields.io/npm/v/nuxt-content/latest.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-content
+[circle-ci-src]: https://img.shields.io/circleci/project/github/davidroyer/nuxt-collections.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/davidroyer/nuxt-collections
+[codecov-src]: https://img.shields.io/codecov/c/github/davidroyer/nuxt-collections.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/davidroyer/nuxt-collections
+[npm-version-src]: https://img.shields.io/npm/dt/nuxt-collections.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/nuxt-collections
+[npm-downloads-src]: https://img.shields.io/npm/v/nuxt-collections/latest.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/nuxt-collections
