@@ -14,7 +14,7 @@ module.exports = {
   //   '@@/node_modules/highlight.js/styles/atom-one-dark-reasonable.css'
   // ],
 
-  content: {
+  collections: {
     // generate: false,
     routes: [
       { collection: 'posts', route: 'blog' }
