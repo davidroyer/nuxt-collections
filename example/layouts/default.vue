@@ -1,28 +1,38 @@
 <template>
   <div>
     <nav>
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/posts">Blog</NuxtLink>
-      <NuxtLink to="/projects">Projects</NuxtLink>
+      <NuxtLink to="/">
+        Home
+      </NuxtLink>
+      <NuxtLink to="/blog">
+        Blog
+      </NuxtLink>
+      <NuxtLink to="/posts">
+        Posts
+      </NuxtLink>
+      <NuxtLink to="/projects">
+        Projects
+      </NuxtLink>
     </nav>
-    <nuxt/>
+    <Nuxt />
   </div>
 </template>
 
 <style>
-.page-enter-active, .page-leave-active {
-  transition: opacity .35s;
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.35s;
   /* transform: translate(30px, 0); */
 }
-.page-enter, .page-leave-active {
-  opacity: 0
+.page-enter,
+.page-leave-active {
+  opacity: 0;
 }
-
 </style>
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

@@ -1,0 +1,7 @@
+{
+  "name": "post-1",
+  "slug": "post-1",
+  "title": "Post 1 Custom Title 3",
+  "date": "12/9/2018",
+  "content": "<h1>Some content for post 1</h1>\n<blockquote>\n<p>Blockquoted<br>\ndsads</p>\n</blockquote>\n"
+}

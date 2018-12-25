@@ -10,11 +10,15 @@ module.exports = {
   modules: [
     '@@'
   ],
-  css: [
-    '@@/node_modules/highlight.js/styles/atom-one-dark-reasonable.css'
-  ],
+  // css: [
+  //   '@@/node_modules/highlight.js/styles/atom-one-dark-reasonable.css'
+  // ],
 
   content: {
+    // generate: false,
+    routes: [
+      { collection: 'posts', route: 'blog' }
+    ]
     // contentDir: '_Content',
     // jsonApiDir: '_Data'
   }

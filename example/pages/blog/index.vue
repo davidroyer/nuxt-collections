@@ -1,7 +1,7 @@
 /* eslint-disable vue/max-attributes-per-line */
 <template lang="html">
-  <div class="posts">
-    <h2>Posts Route Page</h2>
+  <div class="blog">
+    <h2>Blog Route Page</h2>
     <ul class="posts-list">
       <li
         v-for="post in posts"
@@ -11,7 +11,7 @@
           {{ post.date }}
         </span>
         <NuxtLink
-          :to="`/posts/${post.slug}/`"
+          :to="`/blog/${post.slug}`"
           class="post-title"
         >
           {{ post.title }}
