@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/davidroyer/nuxt-collections/compare/v0.2.0...v0.2.1) (2018-12-25)
+
+
+### Bug Fixes
+
+* **config:** Fixes named used in . Was  and is now  to match name of module ([3fec00a](https://github.com/davidroyer/nuxt-collections/commit/3fec00a))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/davidroyer/nuxt-collections/compare/v0.1.1...v0.2.0) (2018-12-25)
 
