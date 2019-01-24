@@ -6,14 +6,19 @@
     >
       <h2>{{ post.title }}</h2>
     </div>
+    <br>
+    <hr>
+    <br>
+    <pre>{{ $store.getters.allPosts }}</pre>
   </div>
 </template>
 
 <script>
 
 export default {
-  asyncData () {
-    const posts = require(`@/data/posts`)
+  asyncData ({ $api, store }) {
+    const posts = $api.getPosts()
+    // const posts = require(`@/data/posts`)
     return { posts }
   }
 }

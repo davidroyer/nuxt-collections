@@ -2,23 +2,23 @@
   {
     "name": "post-2",
     "slug": "post-2",
-    "title": "Post 2 Custom Title f",
+    "title": "Post 2 Custom Title b",
     "date": "12/21/2018",
     "content": "<h2>I am post 2 and hop it works! New</h2>\n<blockquote>\n<p>Hi there!</p>\n</blockquote>\n<ul>\n<li>item 1</li>\n<li>item 2</li>\n</ul>\n"
   },
   {
     "name": "example-1",
     "slug": "example-1",
-    "title": "Example 1 Title a",
+    "title": "Example 1 Title c",
     "date": "12/9/2018",
     "draft": true,
     "description": "This is a short description explaining what this post talks about",
     "tags": [
       "tag-example1sds",
       "tag-example2",
-      "tag3"
+      "tag3dsa"
     ],
-    "content": "<blockquote>\n<p>Some amazing quote content</p>\n</blockquote>\n<ol>\n<li>item 1</li>\n<li>item 2</li>\n</ol>\n<h2>Heading level 2</h2>\n<h2>jeadomg s</h2>\n<ul>\n<li>item here</li>\n<li>item</li>\n</ul>\n<h2>This will be post 4</h2>\n<p>hiiiii</p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-keyword\">var</span> a = <span class=\"hljs-string\">'new'</span>\n</code></pre>\n<p>new</p>\n<h2>I wonder what will happen here as I add</h2>\n<h3>Heading Level 3</h3>\n<h4>Heading Level 4</h4>\n<blockquote>\n<p>Blockquote</p>\n</blockquote>\n"
+    "content": "<blockquote>\n<p>Some amazing quote content</p>\n</blockquote>\n<ol>\n<li>item 1</li>\n<li>item 2</li>\n<li>item 3</li>\n<li>item 4</li>\n</ol>\n<blockquote>\n<p>Blockquote here!sss</p>\n</blockquote>\n<h2>Heading level 2</h2>\n<h2>jeadomg s</h2>\n<ul>\n<li>item here</li>\n<li>item</li>\n</ul>\n<h2>This will be post 4</h2>\n<p>hiiiii</p>\n<pre><code class=\"hljs language-js\"><span class=\"hljs-keyword\">var</span> a = <span class=\"hljs-string\">'new'</span>\n</code></pre>\n<p>new</p>\n<h2>I wonder what will happen here as I add</h2>\n<h3>Heading Level 3</h3>\n<h4>Heading Level 4</h4>\n<blockquote>\n<p>Blockquote</p>\n</blockquote>\n"
   },
   {
     "name": "post-1",
@@ -30,7 +30,7 @@
   {
     "name": "example-2",
     "slug": "example-2",
-    "title": "Using Firebase Auth With Nuxt.js a",
+    "title": "Using Firebase Auth With Nuxt.js assssss",
     "subtitle": "Part 1",
     "description": "This article is an overview of using Nuxt.js with Firebase Authentication. Learn how to check for admin access in your routes and use Vuex with Nuxt.js and Firebase to keep everything manageable.",
     "date": "2/13/2018",

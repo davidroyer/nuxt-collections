@@ -1,5 +1,5 @@
 ---
-title: "Using Firebase Auth With Nuxt.js a"
+title: "Using Firebase Auth With Nuxt.js assssss"
 subtitle: Part 1
 description: This article is an overview of using Nuxt.js with Firebase Authentication. Learn how to check for admin access in your routes and use Vuex with Nuxt.js and Firebase to keep everything manageable.
 date: 2018-02-14
