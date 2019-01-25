@@ -17,6 +17,8 @@
 
 export default {
   asyncData ({ $api, store }) {
+    // eslint-disable-next-line no-console
+    // console.log(store)
     const posts = $api.getPosts()
     // const posts = require(`@/data/posts`)
     return { posts }

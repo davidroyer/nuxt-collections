@@ -14,26 +14,9 @@
 
 export default {
 
-  asyncData ({ $jsonApi, $api, params }) {
-    const post = $api.getPost(params.slug)
-    // eslint-disable-next-line no-console
-    console.log($api, post, 'FROM _SLUG')
-    // const post = $api.getCollection(`posts/${params.slug}`)
-    // const post = require(`@/${$jsonApi}/posts/${params.slug}`)
+  asyncData ({ $api, params }) {
+    const post = $api.getCollectionItem('posts', params.slug)
     return { post }
-  },
-  data: () => ({
-    postTest: {}
-  }),
-  created () {
-    // this.getResource(`posts/${this.$route.params.slug}`)
-  },
-
-  methods: {
-    getResource (path) {
-      const postTest = this.$api.getCollection(path)
-      this.postTest = postTest
-    }
   }
 }
 </script>

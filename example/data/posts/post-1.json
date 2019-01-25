@@ -1,7 +1,7 @@
 {
   "name": "post-1",
   "slug": "post-1",
-  "title": "Post 1 Custom Title 3",
+  "title": "Post 1 Custom Title 3s",
   "date": "12/9/2018",
-  "content": "<h1>Some content for post 1</h1>\n<blockquote>\n<p>Blockquoted<br>\ndsads</p>\n</blockquote>\n"
+  "content": "<h1>Some content for post 1</h1>\n<blockquote>\n<p>Blockquoted<br>\ndsads</p>\n</blockquote>\n<ul>\n<li>item 1</li>\n<li>item 2</li>\n</ul>\n<pre><code class=\"hljs language-html\">    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">ul</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"posts-list\"</span>&gt;</span>\n      <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">li</span>\n        <span class=\"hljs-attr\">v-for</span>=<span class=\"hljs-string\">\"post in posts\"</span>\n        <span class=\"hljs-attr\">:key</span>=<span class=\"hljs-string\">\"post.slug\"</span>\n      &gt;</span>\n        <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">span</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"post-date\"</span>&gt;</span>\n          {{ post.date }}\n        <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">span</span>&gt;</span>\n        <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">NuxtLink</span>\n          <span class=\"hljs-attr\">:to</span>=<span class=\"hljs-string\">\"`/posts/${post.slug}/`\"</span>\n          <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"post-title\"</span>\n        &gt;</span>\n          {{ post.title }}\n        <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">NuxtLink</span>&gt;</span>\n      <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">li</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">ul</span>&gt;</span>\n</code></pre>\n"
 }

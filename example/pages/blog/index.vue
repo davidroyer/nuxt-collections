@@ -22,13 +22,10 @@
 </template>
 
 <script>
-import posts from '@/data/posts'
 export default {
-  asyncData () {
+  asyncData ({ $api }) {
+    const posts = $api.getCollection('posts')
     return { posts }
   }
 }
 </script>
-
-<style lang="css">
-</style>

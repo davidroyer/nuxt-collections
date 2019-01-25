@@ -1,5 +1,5 @@
 ---
-title: "Using Firebase Auth With Nuxt.js assssss"
+title: "Using Firebase Autdsh With Nuxt.js"
 subtitle: Part 1
 description: This article is an overview of using Nuxt.js with Firebase Authentication. Learn how to check for admin access in your routes and use Vuex with Nuxt.js and Firebase to keep everything manageable.
 date: 2018-02-14
@@ -22,7 +22,7 @@ This article is an overview of using Nuxt.js with Firebase Authentication. In Pa
 * You need to enable the Sign-In Method for Google from the Authentication settings via your Firebase Console.
 * I am using Firebase Hosting but it should work with any static hosting provider. However, you'll need to authorize that domain via your Firebase Console in Authentication settings via your Firebase Console under the Sign-In Methods Tab.
 
-I have created 3 files that handle the issues faced when attempting to use Firebase Auth with Nuxt.js.
+I have created ss3 files that handle the issues faced when attempting to use Firebase Auth with Nuxt.js.
 
 * `fireinit.js`
 * `fireauth.js`
